@@ -1,0 +1,32 @@
+# R and operating-system temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+.DS_Store
+Thumbs.db
+
+# All local input, generated output, and reports are intentionally excluded.
+data/raw/*
+!data/raw/.gitkeep
+data/output/*
+!data/output/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Clinical file formats should not accidentally be published.
+*.sas7bdat
+*.sas7bcat
+*.xpt
+*.rds
+*.xls
+*.xlsx
+*.pdf
+
+# Private / confidential source materials
+private/
+confidential/
+reference/
+specifications/
+protocol/
