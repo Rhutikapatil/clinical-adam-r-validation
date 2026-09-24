@@ -48,13 +48,6 @@ clinical-adam-r-validation/
 │   ├── raw/       # Generated synthetic input; ignored by Git
 │   └── output/    # Generated RDS and XPT files; ignored by Git
 ├── reports/       # Locally generated QC summaries; ignored by Git
-├── docs/
-│   ├── project_walkthrough.md
-│   ├── interview_notes.md
-│   ├── portfolio_safety_check.md
-│   ├── github_upload_steps.md
-│   └── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
@@ -87,13 +80,6 @@ The pipeline generates synthetic SDTM-like source files in `data/raw/`, creates 
 ## Skills Demonstrated
 
 R · dplyr · haven · Clinical statistical programming · CDISC/ADaM concepts · Dataset derivations · Synthetic data generation · Time-to-event logic · XPT export · Programmatic QC
-
-## Documentation
-
-- `docs/project_walkthrough.md`: derivation overview
-- `docs/interview_notes.md`: project explanations and interview practice
-- `docs/portfolio_safety_check.md`: public-portfolio confidentiality checklist
-- `docs/github_upload_steps.md`: web upload checklist
 
 ## Data and Confidentiality
 
